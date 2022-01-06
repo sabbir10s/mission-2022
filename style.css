@@ -9,6 +9,7 @@ body {
 
 .section {
     height: 700px;
+    padding-bottom: 100px;
 }
 
 .first__headline {
@@ -17,7 +18,7 @@ body {
 }
 
 .half__width {
-    width: 40%;
+    width: 43%;
     float: left;
     margin-left: 7%;
 }
@@ -29,7 +30,7 @@ h1 {
     line-height: 80px;
 }
 
-.blue-color {
+.blue__color {
     color: #548CFF;
 }
 
@@ -55,4 +56,38 @@ h1 {
 
 .half__width img {
     width: 100%;
+}
+
+.mission__2022 h2 {
+    text-align: center;
+    font-size: 40px;
+}
+
+.mission__2022 {
+    padding-top: 600px;
+}
+
+.mission {
+    height: 316px;
+    width: 22%;
+    border-radius: 26px;
+    margin-left: 7%;
+    float: left;
+    padding: 15px;
+}
+
+.mission img {
+    width: 40%;
+}
+
+#mission {
+    background-color: #F6D7A7;
+}
+
+#vission {
+    background-color: #C8E3D4;
+}
+
+#goals {
+    background-color: #FFC4E1;
 }
