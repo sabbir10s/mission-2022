@@ -12,7 +12,7 @@ body {
     padding-top: 100px;
 }
 
-.half__width {
+.banner_half__width {
     width: 43%;
     float: left;
     margin-left: 7%;
@@ -91,24 +91,28 @@ h1 {
     font-size: 40px;
 }
 
-.develop {
+.section {
     width: 100%;
     padding-top: 150px;
     display: flex;
     margin-left: 7%;
 }
 
-.picture {
+.section__picture {
     width: 30%;
 }
 
-.picture img {
+.section__picture img {
     width: 100%;
 }
 
 .content {
-    width: 40%;
+    width: 50%;
     margin-top: 45px;
+}
+.right{
     margin-left: 50px;
-
+}
+.left{
+    margin-right: 50px;
 }
