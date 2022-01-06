@@ -25,7 +25,7 @@ h1 {
     line-height: 80px;
 }
 
-.blue__color {
+span {
     color: #548CFF;
 }
 
@@ -110,9 +110,45 @@ h1 {
     width: 50%;
     margin-top: 45px;
 }
-.right{
+
+.right {
     margin-left: 50px;
 }
-.left{
+
+.left {
     margin-right: 50px;
+}
+
+.corona {
+    padding-top: 40px;
+}
+
+.corona h2 {
+    text-align: center;
+    font-size: 40px;
+}
+
+.application {
+    padding-top: 30px;
+    display: flex;
+    width: 100%;
+}
+
+.application__picture img {
+    width: 100%;
+}
+
+.application__picture {
+    width: 30%;
+    margin-left: 10%;
+}
+
+.application__content {
+    width: 45%;
+    margin-left: 7%;
+    margin-top: 160px;
+}
+
+.application__content h3 {
+    font-size: 40px;
 }
