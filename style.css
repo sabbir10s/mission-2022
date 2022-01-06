@@ -134,6 +134,7 @@ span {
 
 .contact h2 {
     text-align: center;
+    color: #7900FF;
 }
 
 .contact__form {
@@ -143,7 +144,6 @@ span {
 }
 
 input[type=text],
-select,
 textarea {
     width: 100%;
     padding: 12px;
@@ -167,8 +167,8 @@ input[type=submit] {
 }
 
 footer {
-    background-color: rgb(223, 223, 223);
-    color: black;
+    background-color: #222;
+    color: white;
     height: 200px;
     text-align: center;
     position: relative;
@@ -177,10 +177,11 @@ footer {
 
 .footer__content {
     position: absolute;
-    top: 30px;
+    top: 50px;
     left: 35%;
 }
 
 .footer__content h2 {
-    font-size: 35px;
+    margin: 0;
+    font-family: 'Lobster', cursive;
 }
