@@ -25,6 +25,18 @@ h1 {
     line-height: 80px;
 }
 
+h2 {
+    font-size: 50px;
+}
+
+h3 {
+    font-size: 35px;
+}
+
+h4 {
+    font-size: 25px;
+}
+
 span {
     color: #548CFF;
 }
@@ -32,7 +44,7 @@ span {
 .vertical__line {
     margin-top: 119px;
     margin-right: 18px;
-    width: 5px;
+    width: 4px;
     height: 124px;
     background-color: #7900FF;
 }
@@ -53,104 +65,105 @@ span {
     width: 90%;
 }
 
-.mission__2022 h2 {
+.goal h2 {
     text-align: center;
-    font-size: 40px;
 }
 
-.mission__2022 {
+.goal {
     padding-top: 600px;
 }
 
-.mission {
-    height: 316px;
+.language {
+    height: 330px;
     width: 22%;
     border-radius: 26px;
-    margin-left: 7%;
+    margin-left: 6%;
     float: left;
-    padding: 15px;
+    padding: 20px;
 }
 
-.mission img {
-    width: 40%;
+.language img {
+    width: 35%;
 }
 
-#mission {
-    background-color: #F6D7A7;
-}
-
-#vission {
+#html {
     background-color: #C8E3D4;
 }
 
-#goals {
-    background-color: #FFC4E1;
+#css {
+    background-color: #F6D7A7;
 }
 
-.picture h2 {
-    font-size: 40px;
+#javascript {
+    background-color: #dfe6e2;
 }
 
-.section {
+.develop__global {
     width: 100%;
     padding-top: 150px;
     display: flex;
     margin-left: 7%;
 }
 
-.section__picture {
+.develop__global__picture {
     width: 30%;
 }
 
-.section__picture img {
+.develop__global__picture img {
     width: 100%;
+    border-radius: 30px;
 }
 
 .content {
     width: 50%;
-    margin-top: 45px;
+    margin-top: 15px;
 }
 
-.right {
+.develop {
     margin-left: 50px;
 }
 
-.left {
+.global {
     margin-right: 50px;
 }
 
-.corona {
-    padding-top: 40px;
+.contact {
+    width: 100%;
+    margin-top: 100px;
 }
 
-.corona h2 {
+.contact h2 {
     text-align: center;
-    font-size: 40px;
 }
 
-.application {
-    padding-top: 30px;
-    display: flex;
-    width: 100%;
-}
-
-.application__picture img {
-    width: 100%;
-}
-
-.application__picture {
+.contact__form {
     width: 30%;
-    margin-left: 10%;
+    position: relative;
+    left: 35%;
 }
 
-.application__content {
-    width: 45%;
-    margin-left: 7%;
-    margin-top: 160px;
+input[type=text],
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    margin-top: 18px;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 7px;
+    resize: vertical;
 }
 
-.application__content h3 {
-    font-size: 40px;
+input[type=submit] {
+    background-color: #7900FF;
+    color: white;
+    padding: 12px 50px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 40%;
+    position: relative;
+    left: 68%;
 }
 
 footer {
@@ -159,12 +172,13 @@ footer {
     height: 200px;
     text-align: center;
     position: relative;
+    margin-top: 80px;
 }
 
 .footer__content {
     position: absolute;
     top: 30px;
-    left: 30%;
+    left: 35%;
 }
 
 .footer__content h2 {
